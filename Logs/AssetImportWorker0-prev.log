@@ -1,0 +1,243 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16003 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Uni/Gamedev/Flappy bobr
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61732
+Successfully changed project path to: D:/Uni/Gamedev/Flappy bobr
+D:/Uni/Gamedev/Flappy bobr
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 101.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path D:/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Uni/Gamedev/Flappy bobr/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'D:/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002686 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 101.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.641 seconds
+Domain Reload Profiling:
+	ReloadAssembly (642ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (467ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (101ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006615 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Uni\Gamedev\Flappy bobr\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Uni\Gamedev\Flappy bobr\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 100.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.254 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1255ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1028ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (275ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (546ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (297ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4449 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (55.3 KB). Loaded Objects now: 4907.
+Memory consumption went from 167.2 MB to 167.1 MB.
+Total: 4.175100 ms (FindLiveObjects: 0.493300 ms CreateObjectMapping: 0.168700 ms MarkObjects: 3.407000 ms  DeleteObjects: 0.104500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22100.271372 seconds.
+  path: Assets/bobr-frame-0.png
+  artifactKey: Guid(89c03dd81fe5aad49be529f1f39bc57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bobr-frame-0.png using Guid(89c03dd81fe5aad49be529f1f39bc57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c76a52112a087ab359fd6946515bdf') in 0.105710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.876852 seconds.
+  path: Assets/bobr-frame-0.png
+  artifactKey: Guid(89c03dd81fe5aad49be529f1f39bc57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bobr-frame-0.png using Guid(89c03dd81fe5aad49be529f1f39bc57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5507137edabceb22b9e6d6e618747e5') in 0.010372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 303.393740 seconds.
+  path: Assets/DALL·E 2024-12-15 22.30.22 - A cartoon sprite of a beaver designed for a game like Flappy Bird. The beaver is shown in three different poses_ one in mid-flap with arms raised, one.webp
+  artifactKey: Guid(2be044361da37a64eba35523d97c94a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DALL·E 2024-12-15 22.30.22 - A cartoon sprite of a beaver designed for a game like Flappy Bird. The beaver is shown in three different poses_ one in mid-flap with arms raised, one.webp using Guid(2be044361da37a64eba35523d97c94a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514f1d5415a55fbfb9965b1d6c0e6a29') in 0.013195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.542338 seconds.
+  path: Assets/58e920f8-bf1a-495e-a1b6-a22269dc931e.png
+  artifactKey: Guid(445186acf5687fa4c88fa8ddf57750db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/58e920f8-bf1a-495e-a1b6-a22269dc931e.png using Guid(445186acf5687fa4c88fa8ddf57750db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3572ce8bf30d6848b3c696f831baf4') in 0.120351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.464388 seconds.
+  path: Assets/58e920f8-bf1a-495e-a1b6-a22269dc931e.png
+  artifactKey: Guid(445186acf5687fa4c88fa8ddf57750db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/58e920f8-bf1a-495e-a1b6-a22269dc931e.png using Guid(445186acf5687fa4c88fa8ddf57750db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3cb1520c09039aaa31bdcdee01696f7') in 0.034616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.183538 seconds.
+  path: Assets/58e920f8-bf1a-495e-a1b6-a22269dc931e.png
+  artifactKey: Guid(445186acf5687fa4c88fa8ddf57750db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/58e920f8-bf1a-495e-a1b6-a22269dc931e.png using Guid(445186acf5687fa4c88fa8ddf57750db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09df947bd0a6b61accfc9f6e9aa9cfc8') in 0.114739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 136.711474 seconds.
+  path: Assets/58e920f8-bf1a-495e-a1b6-a22269dc931e-removebg-preview.png
+  artifactKey: Guid(ccd5e862abdf2ab44b0899b577c684bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/58e920f8-bf1a-495e-a1b6-a22269dc931e-removebg-preview.png using Guid(ccd5e862abdf2ab44b0899b577c684bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689abf90a860f8759226e8ace89c072c') in 0.042092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.828208 seconds.
+  path: Assets/58e920f8-bf1a-495e-a1b6-a22269dc931e-removebg-preview.png
+  artifactKey: Guid(ccd5e862abdf2ab44b0899b577c684bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/58e920f8-bf1a-495e-a1b6-a22269dc931e-removebg-preview.png using Guid(ccd5e862abdf2ab44b0899b577c684bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f601c5294133f257dca2674bc9e0e7a0') in 0.044978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 82.608187 seconds.
+  path: Assets/58e920f8-bf1a-495e-a1b6-a22269dc931e-removebg-preview.png
+  artifactKey: Guid(ccd5e862abdf2ab44b0899b577c684bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/58e920f8-bf1a-495e-a1b6-a22269dc931e-removebg-preview.png using Guid(ccd5e862abdf2ab44b0899b577c684bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647db4b58b8ff328ad2fd497653cc1b9') in 0.047804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 117.047123 seconds.
+  path: Assets/Animations/Bobr.anim
+  artifactKey: Guid(33faaf2466e0dff49946a57136f8bc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Bobr.anim using Guid(33faaf2466e0dff49946a57136f8bc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347397bd6e9c353c10172ba41a50b772') in 0.010055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 806.203590 seconds.
+  path: Assets/flappy_bobr.png
+  artifactKey: Guid(784be53d3507d3347b000ed891529540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappy_bobr.png using Guid(784be53d3507d3347b000ed891529540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ce91f8bcf7cad87e60b5354bd0c26f') in 0.037292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.122584 seconds.
+  path: Assets/flappy_bobr.png
+  artifactKey: Guid(784be53d3507d3347b000ed891529540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappy_bobr.png using Guid(784be53d3507d3347b000ed891529540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6358d527a1dd58e7f227eb41aebd2209') in 0.019581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.528466 seconds.
+  path: Assets/flappy_bobr.png
+  artifactKey: Guid(784be53d3507d3347b000ed891529540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappy_bobr.png using Guid(784be53d3507d3347b000ed891529540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58607806f3205555e24860a9f93d473d') in 0.019159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 141.862428 seconds.
+  path: Assets/flappy_bobr-removebg-preview.png
+  artifactKey: Guid(a537d4ba2f35e80429bc8ec740f5ebf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappy_bobr-removebg-preview.png using Guid(a537d4ba2f35e80429bc8ec740f5ebf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6536c4c73ac253fd01199865174c5a2f') in 0.017593 seconds 
